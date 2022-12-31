@@ -1,0 +1,84 @@
+.container {
+    margin: 20px auto;
+}
+
+.container .main {
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    background-color: #6dc9c4;
+    border: 0px solid black;
+    border-radius: 5%;
+    align-items: center;
+}
+
+.container .main .top-box #top-select {
+    padding: 7px;
+    width: 207px;
+    border: none;
+    color: #6e6969;
+    background-color: #85dcdd;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.container .main .top-box #top-select option {
+    padding: 10px;
+    display: block;
+    border: 2px solid red;
+}
+
+.container .main .top-box #top-input {
+    padding: 8px;
+    font-weight: bold;
+    border: 3px solid #85bda5;
+    border-left: none;
+    box-shadow: inset 0 0 5px grey;
+    text-align: center;
+}
+
+.container .main .bottom-box #bottom-select {
+    padding: 7px;
+    width: 207px;
+    border: none;
+    color: #6e6969;
+    background-color: #85dcdd;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.container .main .bottom-box #bottom-input {
+    padding: 8px;
+    font-weight: bold;
+    border: 3px solid #85bda5;
+    border-left: none;
+    box-shadow: inset 0 0 5px grey;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: rgb(134, 126, 126);
+    border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #181616;
+}
